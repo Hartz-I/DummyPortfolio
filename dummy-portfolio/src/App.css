@@ -1,0 +1,15 @@
+*,
+*:after, /*no funny business what so ever!*/
+*::before {
+  /* implies on all the html elements */
+  margin: 0px;
+  padding: 0;
+  /*box-sizing: border-box; /* getting rid of unnessecery defaults */
+  box-sizing: inherit; /*from body*/
+}
+
+/*colors:
+pink: #e74598
+purpleblue: #8a81fe
+purplebluedark: #6056eb
+*/

@@ -1,0 +1,23 @@
+.Sidedrawer {
+  z-index: 100;
+
+  width: 0px;
+  background-color: #e74598;
+  height: 100vh;
+  position: fixed;
+
+  margin-top: 52px;
+
+  transition: 0.5s ease;
+}
+
+.Sidedrawer .Close {
+  transform: translateX(-100px);
+  transition: 0.5s ease;
+}
+
+@media (min-width: 600px) {
+  .Sidedrawer {
+    display: none;
+  }
+}

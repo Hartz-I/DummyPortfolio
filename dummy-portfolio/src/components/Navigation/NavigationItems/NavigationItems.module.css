@@ -1,0 +1,15 @@
+.NavigationItems {
+  border-left: 1px solid rgba(0, 0, 0, 0.438);
+
+  height: auto;
+
+  display: flex; /*aligned next to eachother*/
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .NavigationItems {
+    flex-flow: column;
+  }
+}
