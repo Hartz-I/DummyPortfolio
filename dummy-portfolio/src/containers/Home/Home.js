@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Aux from "../../hoc/Auxilliary/Auxilliary";
+//import Aux from "../../hoc/Auxilliary/Auxilliary";
 import ProPic from "../../assets/images/logoImage.jpg";
 import classes from "./Home.module.css";
 

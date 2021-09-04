@@ -1,7 +1,46 @@
-.ProfilePic {
+.Profile {
+  width: 50%;
+
+  transition: 0.2s ease;
+}
+
+.Profile .Profile__Pic {
   width: 300px;
 
-  margin: 100px;
+  margin-top: 100px;
+  margin-left: 100px;
 
   border-radius: 20px;
+
+  transition: 0.2s ease;
+}
+
+.Profile .Profile__Description {
+  margin: 50px;
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  text-align: justify;
+  text-justify: inter-character;
+
+  transition: 0.2s ease;
+}
+
+@media (max-width: 852px) {
+  .Profile {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Profile .Profile__Pic {
+    width: 80%;
+    margin: 0;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Profile .Profile__Pic {
+    width: 500px;
+  }
 }

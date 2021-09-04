@@ -13,3 +13,16 @@ pink: #e74598
 purpleblue: #8a81fe
 purplebluedark: #6056eb
 */
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e74598;
+  outline: 1px solid #e597c0;
+}

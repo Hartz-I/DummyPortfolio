@@ -3,8 +3,12 @@ import classes from "./Profile.module.css";
 
 const profile = (props) => {
   return (
-    <div>
-      <img className={classes.ProfilePic} src={props.img}></img>
+    <div className={classes.Profile}>
+      <img className={classes.Profile__Pic} src={props.img}></img>
+      <div className={classes.Profile__Description}>
+        Hi! I'm Ahnaf Sadik Inan! A professional React Developer for your
+        frinedly nabourhood!
+      </div>
     </div>
   );
 };
