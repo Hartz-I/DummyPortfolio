@@ -10,7 +10,6 @@
 
 .SocialMedia:hover {
   border: 10px solid rgba(0, 0, 0, 0.664);
-  border-radius: none;
 }
 
 @media (min-width: 1390px) {

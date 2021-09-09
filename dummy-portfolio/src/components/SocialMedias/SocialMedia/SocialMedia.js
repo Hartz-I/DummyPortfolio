@@ -5,7 +5,7 @@ import logo from "../../../assets/images/logo.png";
 
 const socialMedia = (props) => {
   return (
-    <a href="/" className={classes.SocialMedia}>
+    <a href="/">
       <img className={classes.SocialMedia} src={props.img} alt={props.alt} />
     </a>
   );
