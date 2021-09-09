@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Aux from "../../hoc/Auxilliary/Auxilliary";
+//import Aux from "../../hoc/Auxilliary/Auxilliary";
 import classes from "./Layout.module.css";
 
 import Toolbar from "../Navigation/Toolbar/Toolbar";
@@ -23,7 +23,7 @@ class Layout extends Component {
 
   render() {
     return (
-      <Aux>
+      <div className={classes.Layout}>
         {this.state.clicked ? (
           <Backdrop backdropClicked={this.backdropClickedHandler} />
         ) : null}
@@ -33,7 +33,7 @@ class Layout extends Component {
         </div>
         <p>sidedrawer</p>
         <div className={classes.Children}>{this.props.children}</div>
-      </Aux>
+      </div>
     );
   }
 }

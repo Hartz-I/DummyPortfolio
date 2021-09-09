@@ -10,8 +10,10 @@ const profile = (props) => {
         alt="profile__pic"
       ></img>
       <div className={classes.Profile__Description}>
-        Hi! I'm Ahnaf Sadik Inan! A professional React Developer for your
-        frinedly nabourhood!
+        Hi! fjij fj eifi jefj eifje ijf ieifj eijf i eijfiejfehf ef efjiuejhfi
+        efapfha fafj osif ahfhf afh a ffg hagaghhefiooei f sahfewj eif j uah
+        sduihf uifyhauyhfsuid fhsdaufh sfjsiadjfuf s sfsyfudfhsdui asfy h a rawh
+        a r f sfhs
       </div>
     </div>
   );

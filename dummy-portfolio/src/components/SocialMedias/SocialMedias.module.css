@@ -1,0 +1,112 @@
+.SocialMedias {
+  width: 49%;
+
+  position: relative;
+}
+
+.SocialMedias .SocialMedias__1 {
+  position: absolute;
+  width: 300px;
+
+  transition: 0.2s ease;
+
+  z-index: 28;
+}
+
+.SocialMedias .SocialMedias__1:hover,
+.SocialMedias .SocialMedias__1:active {
+  transform: scale(1.2);
+  z-index: 31;
+}
+
+.SocialMedias .SocialMedias__2 {
+  position: absolute;
+  top: 120px;
+  left: 60px;
+  width: 300px;
+
+  transition: 0.2s ease;
+
+  z-index: 29;
+}
+
+.SocialMedias .SocialMedias__2:hover,
+.SocialMedias .SocialMedias__2:active {
+  transform: scale(1.2);
+  z-index: 31;
+}
+
+.SocialMedias .SocialMedias__3 {
+  position: absolute;
+  top: 240px;
+  left: 120px;
+  width: 300px;
+
+  transition: 0.2s ease;
+
+  z-index: 30;
+}
+
+.SocialMedias .SocialMedias__3:hover,
+.SocialMedias .SocialMedias__3:active {
+  transform: scale(1.2);
+  z-index: 31;
+}
+
+@media (max-width: 852px) {
+  .SocialMedias {
+    width: 100%;
+    margin: 64px;
+  }
+
+  .SocialMedias .SocialMedias__1,
+  .SocialMedias .SocialMedias__2,
+  .SocialMedias .SocialMedias__3 {
+    transform: translateX(70px);
+  }
+
+  .SocialMedias .SocialMedias__1:hover,
+  .SocialMedias .SocialMedias__2:hover,
+  .SocialMedias .SocialMedias__3:hover {
+    transform: translateX(70px) scale(1.15);
+  }
+}
+
+@media (max-width: 600px) {
+  .SocialMedias {
+    margin: 16px;
+  }
+
+  .SocialMedias .SocialMedias__1,
+  .SocialMedias .SocialMedias__2,
+  .SocialMedias .SocialMedias__3 {
+    transform: translateX(10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .SocialMedias {
+    margin: 8px;
+
+    transform: scale(0.5);
+  }
+}
+
+@media (min-width: 1400px) {
+  .SocialMedias {
+    transform: scale(1.15);
+    margin-top: 64px;
+  }
+
+  .SocialMedias .SocialMedias__1,
+  .SocialMedias .SocialMedias__2,
+  .SocialMedias .SocialMedias__3 {
+    transform: translateX(200px);
+  }
+
+  .SocialMedias .SocialMedias__1:hover,
+  .SocialMedias .SocialMedias__2:hover,
+  .SocialMedias .SocialMedias__3:hover {
+    transform: translateX(200px) scale(1.15);
+  }
+}

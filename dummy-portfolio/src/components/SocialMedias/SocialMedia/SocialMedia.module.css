@@ -1,0 +1,27 @@
+.SocialMedia {
+  width: 100%;
+  height: 200px;
+  border: 5px solid rgba(0, 0, 0, 0.356);
+
+  transition: 0.2s ease;
+
+  border-radius: 20px;
+}
+
+.SocialMedia:hover {
+  border: 10px solid rgba(0, 0, 0, 0.664);
+  border-radius: none;
+}
+
+@media (min-width: 1390px) {
+  .SocialMedia {
+    transform: scale(1.3);
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 852px) {
+  .SocialMedias {
+    width: 100%;
+  }
+}

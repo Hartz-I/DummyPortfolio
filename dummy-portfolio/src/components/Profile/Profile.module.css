@@ -7,7 +7,6 @@
 .Profile .Profile__Pic {
   width: 300px;
 
-  margin-top: 100px;
   margin-left: 100px;
 
   border-radius: 20px;
@@ -35,7 +34,6 @@
   .Profile .Profile__Pic {
     width: 80%;
     margin: 0;
-    margin-top: 100px;
   }
 }
 

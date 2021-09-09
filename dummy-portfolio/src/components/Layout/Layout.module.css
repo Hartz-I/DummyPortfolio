@@ -1,7 +1,18 @@
+.Layout {
+  background-image: linear-gradient(to right, #e74598, #8a81fe);
+  height: 100%;
+}
+
 .Children {
   margin-top: -1px;
 }
 
 .Toolbar {
   margin-top: 500px;
+}
+
+@media (max-width: 852px) {
+  .Layout {
+    height: 200vh;
+  }
 }
